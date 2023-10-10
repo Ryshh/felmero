@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Felmérő</title>
+
+    <style>
+        img
+        {
+            max-width: 150px;
+        }
+
+        h1
+        {
+            text-align: left;
+        }
+
+        .container
+        {
+            max-width: 800px;
+            text-align: center;
+        }
+
+        .hír
+        {
+            border: 1px solid black;
+            border-radius: 5px;
+            text-align: left;
+            padding:15px;
+            padding-top: 5px;
+        }
+
+        .pic
+        {
+            background-color: lightgreen;
+            max-width: 250px;
+            margin: 20px auto;
+            padding: 10px;
+            box-shadow: 5px 5px 4px 5px #888888;
+        }
+
+        #cim
+        {
+            margin-top: 20px;
+        }
+
+        #felíratkozom
+        {
+            width: 100%;
+            margin: 2px;
+            background-color: lightgreen;
+            border: none;
+        }
+
+        #text
+        {
+            width: 100%;
+            margin: 2px;
+        }
+
+        #fejezet
+        {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        #x
+        {
+        	float: right;
+            text-align: right;
+            border: none;
+            background-color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container col-sm-12 col-md-12 col-lg-12">
+        <h1>Ingyenes tanfolyamok</h1>
+        <div class="row">
+            <div class="pic col-sm-12 col-md-4 col-lg-4"><img src="logo-css3.png" alt=""><br><p>CSS3</p></div>
+            <div class="pic col-sm-12 col-md-4 col-lg-4"><img src="logo-html5.png" alt=""><br><p>HTML5</p></div>
+            <div class="pic col-sm-12 col-md-4 col-lg-4"><img src="bootstrap.png" alt=""><br><p>Bootstrap</p></div>
+            <div class="hír">
+                <input id="x" type="button" name="x" value="x">
+                <h2 id="cim">Hírlevél</h2>
+                <p>Íratkozz fel hírlevelünkre, hogy időben értesülj a webes technológia újdonságaikról.</p>
+                <input type="text" id="text"><br>
+                <input type="button" name="felíratkozom" id="felíratkozom" value="felíratkozom"><br>
+                <input type="checkbox" id="checkbox">  Elfogadom a feltételeket.
+            </div>
+            <h2 id="fejezet">Következő fejezet</h2>
+        </div>
+    </div>
+</body>
+</html>
